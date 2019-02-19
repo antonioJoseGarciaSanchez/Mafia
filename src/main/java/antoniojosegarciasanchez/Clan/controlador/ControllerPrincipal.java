@@ -20,6 +20,7 @@ public class ControllerPrincipal implements ActionListener{
 	private Principal cp;
 	private ControllerMiembros m;
 	private ControllerJefes j;
+	private ControllerChirona cc;
 	
 	public ControllerPrincipal() {
 		cp = new Principal();
@@ -44,7 +45,9 @@ public class ControllerPrincipal implements ActionListener{
 			cp.setVisible(false);
 				
 		}else if(ac.equals("carcel")) {
-					
+			
+			cc = new ControllerChirona();
+			cp.setVisible(false);
 				
 		}
 	}

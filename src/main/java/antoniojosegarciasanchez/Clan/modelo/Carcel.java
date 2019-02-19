@@ -27,8 +27,8 @@ public class Carcel {
 	/**
 	 * @param miembrosEncerrados the miembrosEncerrados to set
 	 */
-	public void setMiembrosEncerrados(List<Miembro> miembrosEncerrados) {
-		this.miembrosEncerrados = miembrosEncerrados;
+	public void setMiembrosEncerrados(Miembro miembroEncerrado) {
+		this.miembrosEncerrados.add(miembroEncerrado);
 	}
 	
 	/**
